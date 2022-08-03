@@ -21,7 +21,7 @@ For building and running the application you need:
 
 - [JDK 11.0.15](https://www.oracle.com/nl/java/technologies/javase/jdk11-archive-downloads.html)
 - [Maven 3](https://maven.apache.org)
-- [Spring Boot 2.7] (https://spring.io/projects/spring-boot#support)
+- [Spring Boot 2.7](https://spring.io/projects/spring-boot#support)
 
 ## Configuration properties
 Appliction can be configure by your "application.yml" 
