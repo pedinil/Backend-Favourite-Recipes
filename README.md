@@ -9,9 +9,10 @@ Create a standalone java application which allows users to manage their favourit
 
 
 For example, the API should be able to handle the following search requests:
-• All vegetarian recipes
-• Recipes that can serve 4 persons and have “potatoes” as an ingredient
-• Recipes without “salmon” as an ingredient that has “oven” in the instructions.
+
+-  All vegetarian recipes  
+-  Recipes that can serve 4 persons and have “potatoes” as an ingredient
+-  Recipes without “salmon” as an ingredient that has “oven” in the instructions.
 
 
 
@@ -24,5 +25,7 @@ For building and running the application you need:
 - [Spring Boot 2.7](https://spring.io/projects/spring-boot#support)
 
 ## Configuration properties
-Appliction can be configure by your "application.yml" 
+Application can be configure by your "application.yml" 
 
+
+## 
