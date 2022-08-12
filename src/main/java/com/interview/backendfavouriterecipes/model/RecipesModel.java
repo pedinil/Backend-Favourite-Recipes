@@ -12,7 +12,6 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 
 
-
 @Entity
 @Table(name = "t_recipes")
 @Setter
@@ -34,7 +33,6 @@ public class RecipesModel extends BaseEntity {
     private String ingredients;
 
     private String instructions;
-
 
 
 }
