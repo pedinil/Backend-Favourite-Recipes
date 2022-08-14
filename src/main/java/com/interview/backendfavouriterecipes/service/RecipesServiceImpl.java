@@ -17,9 +17,6 @@ import java.util.stream.Collectors;
 @Service
 @Slf4j
 @RequiredArgsConstructor
-/**
- *
- */
 public class RecipesServiceImpl implements RecipesService {
 
 
@@ -78,7 +75,7 @@ public class RecipesServiceImpl implements RecipesService {
         ).collect(Collectors.toList());
 
         if (recipesModelList.isEmpty()) {
-            throw new EntityNotFoundException(RecipesService.class, "includeIngredient", String.valueOf(includeIngredient), "ingredient", String.valueOf(includeInstructions), "instructions", instructions, ingredient, "includeInstructions");
+            throw new EntityNotFoundException(RecipesService.class, "includeIngredient", String.valueOf(includeIngredient), "ingredient", String.valueOf(includeInstructions), "instructions", instructions, "ingredient",ingredient);
         }
 
         return recipesModelList;

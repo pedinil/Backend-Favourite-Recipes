@@ -4,8 +4,6 @@ import com.interview.backendfavouriterecipes.base.BaseEntity;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.lang.Nullable;
-
-
 import javax.persistence.Entity;
 import javax.persistence.Table;
 import javax.validation.constraints.NotBlank;
@@ -33,6 +31,5 @@ public class RecipesModel extends BaseEntity {
     private String ingredients;
 
     private String instructions;
-
 
 }

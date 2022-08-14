@@ -9,7 +9,6 @@ spring:
       enabled: true
   jpa:
     spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
-    show-sql: true
 logging:
   level:
     root: info
